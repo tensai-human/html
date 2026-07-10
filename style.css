@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#efefef;
+    font-family:"Yu Gothic",sans-serif;
+}
+
+.hero{
+
+    width:960px;
+    height:540px;
+
+    margin:30px auto;
+
+    position:relative;
+    overflow:hidden;
+}
+
+.bg{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.message{
+
+    position:absolute;
+    top:40px;
+    left:30px;
+
+    background:rgba(255,245,245,.75);
+
+    padding:15px 18px;
+}
+
+.message h1{
+
+    color:#d52b73;
+
+    font-size:24px;
+    line-height:1.6;
+}
+
+.b1{
+
+    position:absolute;
+    width:70px;
+
+    left:140px;
+    top:350px;
+}
+
+.b2{
+
+    position:absolute;
+    width:70px;
+
+    left:370px;
+    top:470px;
+}
+
+.b3{
+
+    position:absolute;
+    width:70px;
+
+    left:630px;
+    top:400px;
+}
+
+.c1{
+
+    position:absolute;
+    width:40px;
+
+    left:600px;
+    top:200px;
+}
+
+.c2{
+
+    position:absolute;
+    width:40px;
+
+    left:500px;
+    top:140px;
+}
+
+.c3{
+
+    position:absolute;
+    width:40px;
+
+    left:450px;
+    top:100px;
+}
+
+.c4{
+
+    position:absolute;
+    width:40px;
+
+    left:370px;
+    top:140px;
+}
+
+.c5{
+
+    position:absolute;
+    width:40px;
+
+    left:470px;
+    top:180px;
+}
+.b1, .b2, .b3, .c1, .c2, .c3, .c4, .c5 {
+    transition: left 0.5s, top 0.5s;
+}
+
+
+.copy{
+
+    position:absolute;
+
+    right:20px;
+    bottom:12px;
+
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+
+    text-shadow:1px 1px 3px black;
+}
